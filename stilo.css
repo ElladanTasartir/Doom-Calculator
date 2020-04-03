@@ -3,11 +3,9 @@
     src: url('amazdoom/AmazDooMLeft.ttf')
 }
 
-
 body {
     background-color: #fff9ff;
 }
-
 
 header{
     position: fixed;
