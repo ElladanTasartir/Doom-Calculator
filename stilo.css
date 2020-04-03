@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "Doom";
+    src: url('amazdoom/AmazDooMLeft.ttf')
+}
+
+
+body {
+    background-color: #fff9ff;
+}
+
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #000;
+    box-shadow: 2px 2px 20px rgba(255,0,0, 0.46);
+    width: 100%;
+    height: 40px;
+    max-height: 50px;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 9px 9px;
+    overflow: hidden;
+}
+
+header img{
+    height: 100px;
+    width: 500px
+}
+
+header img:hover{
+    opacity: 80%;
+}
+
+.calc {
+    font-family: 'Doom';
+    font-size: 18px;
+    width: 22px;
+    height: 23px;
+}
+
+#tela{
+    border-radius: 5px;
+    background-color: #6B6E51;
+    width: 70px;
+    height: 23px;
+    font-size: 23px;
+}
+
+#marge {
+    margin-top: 150px;
+    width: 130px;
+    border: black solid;
+    border-width: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    padding-top: 10px;
+    background-image: url('doom.jpg');
+    background-size: 100% 100%;
+    height: 60px;
+    width: 130px;
+}
+
+#body {
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: #000;
+    width: 100px;
+}
+
+#zero, #menos {
+    width: 48px;
+    height: 23px;
+    font-family: 'Doom';
+    font-size: 20px;
+}
+
+#igual {
+    width: 22px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#imagens {
+    display: none;  
+    background-color: #fff;
+    box-shadow: 10px 10px 90px #000;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 70%;
+    border-radius: 10px;
+    border-width: 1px;
+}
+#musica {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    padding: 0px;
+    width: 22px;
+    height: 23px;
+}
+
+img {
+    width: 60px;
+    width: 90px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+button:hover{
+    opacity: 80%;
+}
+
+#botao-topo{
+    display: none;
+    position: fixed;
+    left: 30px;
+    bottom: 40px;
+    transition: opacity 2s, visibility 3s;
+}
+
+#botao-topo.show{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+#botao-topo.remove{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+
