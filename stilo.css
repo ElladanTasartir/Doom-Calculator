@@ -137,15 +137,14 @@ button:hover{
     transition: opacity 2s, visibility 3s;
 }
 
+#botao-topo:hover{
+    opacity: 80%;
+}
+
 #botao-topo.show{
     display: block;
     opacity: 1;
     visibility: visible;
-}
-
-#botao-topo.remove{
-    opacity: 0;
-    visibility: hidden;
 }
 
 
