@@ -59,7 +59,7 @@ function divideDoom(valor) {
         }
     }
     else{
-        alert(`NÃO CONSEGUIRÁ COMPRAR DOOM ETERNAL COM ESSA MIXARIA DE R$ ${valor},00, apenas {result} de uma cópia!`);
+        alert(`NÃO CONSEGUIRÁ COMPRAR DOOM ETERNAL COM ESSA MIXARIA DE R$ ${valor},00, apenas ${result} de uma cópia!`);
     }
     return result;
 }
